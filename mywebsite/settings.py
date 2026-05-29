@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'website.apps.WebsiteConfig',
     'hello',
     'newyear',
+    'tasks.apps.TasksConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

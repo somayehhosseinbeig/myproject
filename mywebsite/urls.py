@@ -22,5 +22,7 @@ urlpatterns = [
     # path('url address' , 'view', name),
    path('',include('website.urls')),
    path('hello/', include('hello.urls')),
+   path('tasks/', include('tasks.urls')),
    path('newyear/', include('newyear.urls'))
+   
 ]
