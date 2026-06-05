@@ -2,13 +2,14 @@ from django import forms
 from django.shortcuts import render
 from django.urls import reverse
 from django.http import HttpResponseRedirect
+from tasks.forms import NewTaskForm
 
 #tasks = ["study", "cooking", "listen to music"]# global variable
 # tasks = []
 
-class NewTaskForm(forms.Form):
+""" class NewTaskForm(forms.Form):
     task = forms.CharField(label="New Task")
-    priority = forms.IntegerField(label="Priority", min_value=1, max_value=10)
+    priority = forms.IntegerField(label="Priority", min_value=1, max_value=10) """
 
 # Create your views here.
 def index(request):
