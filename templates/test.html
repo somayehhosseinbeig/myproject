@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    {{posts}}
+
+    <ul>
+        {% for post in posts %}
+        {% if post.status == 0 %}
+            <li>Not Published yet.</li>
+        {% else %}
+            <h2>{{post.title}}</h2>
+            <li>{{post.content}}</li>
+            <small>{{post.published_date}}</small>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+</body>
+</html>
