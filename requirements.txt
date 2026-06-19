@@ -1,0 +1,4 @@
+asgiref @ file:///C:/Users/Somayeh/Desktop/myproject/asgiref-3.11.1-py3-none-any.whl#sha256=e8667a091e69529631969fd45dc268fa79b99c92c5fcdda727757e52146ec133
+Django @ file:///C:/Users/Somayeh/Desktop/myproject/django-6.0.4-py3-none-any.whl#sha256=14359c809fc16e8f81fd2b59d7d348e4d2d799da6840b10522b6edf7b8afc1da
+sqlparse @ file:///C:/Users/Somayeh/Desktop/myproject/sqlparse-0.5.5-py3-none-any.whl#sha256=12a08b3bf3eec877c519589833aed092e2444e68240a3577e8e26148acc7b1ba
+tzdata @ file:///C:/Users/Somayeh/Desktop/myproject/tzdata-2026.1-py2.py3-none-any.whl#sha256=4b1d2be7ac37ceafd7327b961aa3a54e467efbdb563a23655fbfe0d39cfc42a9
